@@ -1,0 +1,9 @@
+var corpo = document.body
+corpo.style.backgroundColor = '#7f8fff'
+var p1 = document.getElementsByTagName('p')[0]
+p1.style.color = 'yellow'
+p1.innerText = 'alteração do texto'
+var d = document.getElementsByClassName('exemplo')[0]
+d.style.color = 'blue'
+var div = document.querySelector('div#msg') 
+div.style.color = 'orange'

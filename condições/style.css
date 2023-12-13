@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 20px;
+    font-family: Arial;
+    background-color: #95b67f;
+}
+.container{
+    display: flex;
+    flex-flow: column;
+    justify-content:center;
+    align-items: center;
+    padding-top: 100px;
+    padding: 20px;
+}
+form{
+    background-color: #7f8fff;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 500px;
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 20px;
+}
+input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: blue;
+    color: #fff;
+}
+.my-button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 80px;
+    background-color: #04c9ff;
+    cursor: pointer;
+}
+.my-button:hover{
+    transform: scale(1.2);
+    border-color: #fff;
+}
+div#resultado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+div#resp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
